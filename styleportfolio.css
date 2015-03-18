@@ -5,3 +5,72 @@
 	width    : 980px;
 	left     :0px;
 }
+
+@media screen and (max-width:800px) {
+				@-ms-viewport {
+					width:321px;
+				}
+	}
+	
+/*Main text,name*/	
+.font_0 {
+		font:normal normal bold 43px/1.2em 'Noticia Text',serif ;
+		color:#606060;
+	}
+/*Welcome "Hello" logo*/
+.font_3 {
+		font:normal normal normal 80px/1.2em 'Noticia Text',serif ;
+		color:#606060;
+	}	
+/*"Welcome to my page"*/	
+.font_4 {
+			font:normal normal normal 46px/1.2em 'Noticia Text',serif ;
+			color:#606060;
+	}
+	
+/*"information under name"*/	
+.font_6 {
+			font:normal normal normal 17px/1.2em 'Noticia Text',serif ;
+			color:#606060;
+	}
+		
+/*Desctription*/
+.font_8 {
+		font:normal normal normal 13px/1.2em 'Open Sans',sans-serif ;
+		color:#606060;
+	}
+/*Comtact panel name font*/
+.font_9 {
+		font:normal normal normal 12px/1.2em 'Open Sans',sans-serif ;
+		color:#606060;
+	}
+	
+/*COLORS*/
+
+/*white*/
+.color_11 {
+		color:#FFFFFF;
+	}
+
+/*MY SKILS Round BUTTON STYLE*/
+.s14link {
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background-color:rgba(209, 200, 37, 1);  /*Light green*/
+		transition: border 0.4s ease 0s, background-color 0.4s ease 0s;    
+		border:solid rgba(209, 200, 37, 1) 0px;
+		cursor:pointer !important;border-radius:50%;
+	}
+.s14label {
+		font:normal normal normal 13px/1.2em 'Open Sans',sans-serif ;
+		transition: color 0.4s ease 0s;
+		color:#FFFFFF;display:inline-block;
+		margin:-webkit-calc(-1 * 0px) 0px 0;
+		margin:calc(-1 * 0px) 0px 0;
+		position:relative;white-space:nowrap; 
+		}
+.s14:active[data-state~="mobile"] .s14link,.s14:hover[data-state~="desktop"] .s14link {background-color:rgba(139, 133, 25, 1);  border:solid rgba(139, 133, 25, 1) -5px;transition: border 0.4s ease 0s, background-color 0.4s ease 0s;}
+.s14:active[data-state~="mobile"] .s14label,.s14:hover[data-state~="desktop"] .s14label {color:#FFFFFF;transition: color 0.4s ease 0s;}	
