@@ -64,6 +64,7 @@
 		border:solid rgba(209, 200, 37, 1) 0px;
 		cursor:pointer !important;border-radius:50%;
 	}
+	
 .s14label {
 		font:normal normal normal 13px/1.2em 'Open Sans',sans-serif ;
 		transition: color 0.4s ease 0s;
@@ -72,5 +73,78 @@
 		margin:calc(-1 * 0px) 0px 0;
 		position:relative;white-space:nowrap; 
 		}
-.s14:active[data-state~="mobile"] .s14link,.s14:hover[data-state~="desktop"] .s14link {background-color:rgba(139, 133, 25, 1);  border:solid rgba(139, 133, 25, 1) -5px;transition: border 0.4s ease 0s, background-color 0.4s ease 0s;}
-.s14:active[data-state~="mobile"] .s14label,.s14:hover[data-state~="desktop"] .s14label {color:#FFFFFF;transition: color 0.4s ease 0s;}	
+.s14:active[
+		data-state~="mobile"
+	] 
+.s14link,.s14:hover[
+	data-state~="desktop"
+	] 
+.s14link {
+		background-color:rgba(139, 133, 25, 1);
+		border:solid rgba(139, 133, 25, 1) -5px;
+		transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+	}
+
+.s14label {
+		color:#FFFFFF;
+		transition: color 0.4s ease 0s;
+	}	
+	
+	
+/*Background setts*/
+.s0screenWidthBackground {
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+	}
+		
+.s0[data-state~="mobileView"] {
+		position:absolute !important;
+	}
+	
+.s0[data-state~="fixedPosition"] {
+		position:fixed !important;
+		left:auto !important;
+		z-index:100;
+	}
+.s0[data-state~="fixedPosition"].s0_footer {
+		top:auto;
+		bottom:0;
+	}
+.s0bg {
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+	}
+	
+.s0inlineContent {
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+	}
+.s0centeredContent {
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+	}	
+	
+	
+/*FONTS SET*/
+.s1 p  {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h1 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h2 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h3 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h4 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h5 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h6 {margin:0;line-height:normal;letter-spacing:normal;}
+
+
+	
