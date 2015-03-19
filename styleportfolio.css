@@ -135,7 +135,19 @@
 		bottom:0;
 		left:0;
 	}	
-	
+
+/*Contact div */
+.s5_bg {
+		position:absolute;
+		width:100%;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background-color:rgba(232, 53, 86, 1);
+		border-top:3px solid rgba(255, 255, 255, 1);
+		border-bottom:0px solid rgba(255, 255, 255, 1);
+	}
 	
 /*FONTS SET*/
 .s1 p  {margin:0;line-height:normal;letter-spacing:normal;}
