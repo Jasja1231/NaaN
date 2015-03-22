@@ -33,7 +33,11 @@
 					width:321px;
 				}
 	}
-	
+.SITE_ROOT {
+  min-height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
 /*Main text,name*/	
 .font_0 {
 		font:normal normal bold 43px/1.2em 'Noticia Text',serif ;
