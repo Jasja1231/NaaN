@@ -3,9 +3,31 @@
 	top 	 : 0px;
 	height   : 149px;
 	width    : 980px;
-	left     :0px;
+	left     : 0px;
 }
-
+#SITE_BACKGROUND{
+	top: 0px; 
+	height: 970px;
+	left: 0px; 
+	width: 1027px;" 
+}
+#SITE_STRUCTURE{
+	position: static;
+	top: 0px;
+	width: 980px;
+	height: 970px;
+}
+#SITE_HEADER{
+	position: absolute;
+	top: 0px; 
+	height: 149px;
+	width: 980px; 
+	left: 0px; 				
+}
+#SITE_HEADERscreenWidthBackground{
+	width: 1027px;
+	left: -24px;
+}
 @media screen and (max-width:800px) {
 				@-ms-viewport {
 					width:321px;
@@ -51,7 +73,63 @@
 .color_11 {
 		color:#FFFFFF;
 	}
-
+	
+/*My PROJECTS ROUND BUTTON STYLE*/
+.s13link {
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background-color:rgba(97, 207, 211, 1);
+		transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+		border:solid rgba(97, 207, 211, 1) 0px;
+		cursor:pointer !important;
+		border-radius:50%;
+	}
+.s13label {
+		font:normal normal normal 13px/1.2em 'Open Sans',sans-serif ;
+		transition: color 0.4s ease 0s;
+		color:#FFFFFF;
+		display:inline-block;margin:-webkit-calc(-1 * 0px) 0px 0;
+		margin:calc(-1 * 0px) 0px 0;
+		position:relative;
+		white-space:nowrap;
+	}
+.s13:active[data-state~="mobile"] .s13link,.s13:hover[data-state~="desktop"] 
+.s13link {
+		background-color:rgba(64, 138, 141, 1);
+		border:solid rgba(64, 138, 141, 1) -5px;
+		transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+	}
+	
+/*My RESUME round BUTTON STYLE*/
+.s12link { /*button background style*/
+		position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(232, 53, 86, 1);
+		transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+		border:solid rgba(232, 53, 86, 1) 0px;
+		cursor:pointer !important;
+		border-radius:50%;
+	}
+	/*text from top goes into centre of red area of the button*/
+.s12label {
+		font:normal normal normal 13px/1.2em 'Open Sans',sans-serif ;
+		transition: color 0.4s ease 0s;
+		color:#FFFFFF;
+		display:inline-block;
+		margin:-webkit-calc(-1 * 0px) 0px 0;
+		margin:calc(-1 * 0px) 0px 0;
+		position:relative;
+		white-space:nowrap;
+	}
+	/*hover shade*/
+.s12:active[data-state~="mobile"] .s12link,.s12:hover[data-state~="desktop"] 
+.s12link {
+		background-color:rgba(154, 35, 57, 1);
+		border:solid rgba(154, 35, 57, 1) -5px;
+		transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+	}
+	
 /*MY SKILS Round BUTTON STYLE*/
 .s14link {
 		position:absolute;
@@ -89,6 +167,12 @@
 		color:#FFFFFF;
 		transition: color 0.4s ease 0s;
 	}	
+	
+/*main picture*/	
+.s11img {
+		border-radius:50%;
+		overflow:hidden;
+	}
 	
 	
 /*Background setts*/
@@ -135,6 +219,11 @@
 		bottom:0;
 		left:0;
 	}	
+/*first layer does not affect elements on top layers*/
+.siteBackground {
+		width:100%;
+		position:absolute;
+	}
 
 /*Contact div */
 .s5_bg {
@@ -157,6 +246,20 @@
 .s1 h4 {margin:0;line-height:normal;letter-spacing:normal;}
 .s1 h5 {margin:0;line-height:normal;letter-spacing:normal;}
 .s1 h6 {margin:0;line-height:normal;letter-spacing:normal;}
+
+/*Circles on Contact panel*/
+	.s7bg {	
+			border:0px solid rgba(0, 0, 0, 1);
+			background-color:rgba(97, 207, 211, 1);
+		}
+	.s7inlineContent,.s7bg {
+			position:absolute;
+			top:0;
+			right:0;
+			bottom:0;
+			left:0;
+			border-radius:50%;
+		}
 
 
 	
